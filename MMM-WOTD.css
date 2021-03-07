@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+.MMM-WOTD {
+	font-family: 'Oswald', sans-serif;
+}
+.MMM-WOTD .narrow {
+   width: 235px;
+   padding-top: 10px;
+   word-wrap: break-word;
+   border-collapse: collapse;   
+}
+.MMM-WOTD .wide { 
+ position: absolute;
+ top: 0;
+} 
+.narrow td ,tr { 
+   width:55%;
+   border: 1px solid lightgray;   
+   text-align:center;
+   padding:2px;
+   font-weight: 500;   
+} 
+.wide::before {
+    content: 'Word of The Day';
+	font-size: 30px;
+    color: white;
+	letter-spacing: 5px;	
+}
+.narrow::before {
+    content: 'Word of The Day';
+	width: 95%;
+	font-size: 20px; 
+    color: white;	
+}
