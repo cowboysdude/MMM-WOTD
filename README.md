@@ -8,10 +8,8 @@ Word of the day for MagicMirror2
 
 ## Examples
 
-Wide using bottom bar for position
-![](examples/wide.png)
-
 Narrow using top left for position
+
 ![](examples/narrow.png)
 
 ## Installation and requirements
@@ -30,13 +28,12 @@ Narrow using top left for position
     module: "MMM-WOTD",
     position: "top left", 
     config: {
-        style: 'narrow',   // select wide or narrow and choose position
         word: 'white',     // word font color
         definition: 'white', // definition color
         say: 'white',    // pronunciation color
         wbackground: '#52523D',   //word background color -- left hand side
         dbackground: 'lightgray'  //definition, pronounciation etc color -- right hand side
-        updateInterval: 5 * 60 * 1000 
+        updateInterval: 5 * 60 * 1000 // update as often as you'd like or use the default -- 1 * 720 * 1000
     }
 },
 ```
