@@ -1,14 +1,15 @@
 # WWW-WOTD
 Word of the day for MagicMirror2 
 
-## Good-bye bottom_bar (Well, not really)
+## Great for Kids to learn new words!
 
-* Examples for either bottom bar or top left 
+* Examples for top left 
 * CSS provided for coloring and sizing. Make it your own.
+* Use updateInterval to reload as often as you'd like!
 
 ## Examples
 
-Narrow using top left for position
+Using top left for position
 
 ![](examples/narrow.png)
 
