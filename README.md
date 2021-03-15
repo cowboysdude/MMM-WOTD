@@ -33,7 +33,7 @@ Using top left for position
         definition: 'white', // definition color
         say: 'white',    // pronunciation color
         wbackground: '#52523D',   //word background color -- left hand side
-        dbackground: 'lightgray'  //definition, pronounciation etc color -- right hand side
+        dbackground: 'lightgray',  //definition, pronounciation etc color -- right hand side
         updateInterval: 5 * 60 * 1000 // update as often as you'd like or use the default -- 1 * 720 * 1000
     }
 },
