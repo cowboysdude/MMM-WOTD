@@ -17,9 +17,7 @@ Using top left for position
 
 * `git clone https://github.com/cowboysdude/WWW-WOTD` into the `~/MagicMirror/modules` directory.
 
-* NO API key is needed!
-
-* No dependencies needed!
+* go to 'modules/MMM-WOTD' directory and run 'npm install'
 
 ## Config.js entry and options
 
