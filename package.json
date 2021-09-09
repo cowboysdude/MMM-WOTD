@@ -1,0 +1,31 @@
+{
+  "name": "mmm-wotd2",
+  "version": "2.0.0",
+  "main": "MMM-WOTD2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cowboysdude",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.10",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "description": "Word of the Day for MagicMirror2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cowboysdude/WWW-WOTD.git"
+  },
+  "keywords": [
+    "Word",
+    "of",
+    "the",
+    "Day"
+  ],
+  "bugs": {
+    "url": "https://github.com/cowboysdude/WWW-WOTD/issues"
+  },
+  "homepage": "https://github.com/cowboysdude/WWW-WOTD#readme"
+}
